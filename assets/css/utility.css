@@ -1,0 +1,187 @@
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.w_full {
+    width: 100%;
+}
+
+
+
+.gap_xl {
+    gap: var(--gap-xl)
+}
+
+.gap_lg {
+    gap: var(--gap-lg)
+}
+
+.gap_md {
+    gap: var(--gap-md)
+}
+
+.gap_sm {
+    gap: var(--gap-sm)
+}
+
+.gap_xs {
+    gap: var(--gap-xs)
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    align-self: center;
+}
+
+.flex_col_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 60%;
+
+}
+
+.self_center {
+    align-self: center;
+}
+
+.items_center {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.items_left {
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+}
+
+.items_right {
+    display: flex;
+    justify-content: end;
+    justify-items: center;
+}
+
+.items_between {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+
+.text_bold {
+    font-weight: 600;
+}
+
+.text_xl {
+    font-size: x-large;
+}
+
+.text_lg {
+    font-size: large;
+}
+
+.text_md {
+    font-size: medium;
+}
+
+.text_sm {
+    font-size: small;
+}
+
+.text_xs {
+    font-size: x-small
+}
+
+.text_md {
+    font-size: medium;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_black {
+    color: black;
+}
+
+.text_gray {
+    color: gray;
+}
+
+.icon-xl {
+    font-size: x-large;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.icon_lg {
+    font-size: large;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.mt_xs {
+    margin-top: 1rem;
+}
+
+.mt_sm {
+    margin-top: 2rem;
+}
+
+.mt_md {
+    margin-top: 3.5rem;
+}
+
+.mt_lg {
+    margin-top: 4.5rem;
+}
+
+.mt_xl {
+    margin-top: 5.5rem;
+}
+
+.mb_96 {
+    margin-bottom: 7rem;
+}
+
+.p_sm {
+    padding: 1rem;
+}
+
+.p_md {
+    padding: 2rem;
+}
+
+.p_lg {
+    padding: 3rem;
+}
+
+.p_xl {
+    padding: 4rem;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.radius_sm {
+    border-radius: .5rem;
+}
