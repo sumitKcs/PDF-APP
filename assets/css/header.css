@@ -111,7 +111,9 @@ aside {
     margin-top: 3rem;
 }
 
-
+aside .menu_expand_wrapper {
+    overflow-y: scroll;
+}
 
 @media only screen and (max-width: 930px) {
 

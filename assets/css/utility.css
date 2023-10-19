@@ -248,3 +248,19 @@ a:visited {
 .word_md {
     word-spacing: .5rem;
 }
+
+.hidden {
+    display: none;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.overflow_scroll {
+    overflow: scroll;
+}
