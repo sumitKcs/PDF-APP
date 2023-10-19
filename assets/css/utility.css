@@ -90,6 +90,10 @@ a:visited {
     font-weight: 600;
 }
 
+.text_2xl {
+    font-size: xx-large;
+}
+
 .text_xl {
     font-size: x-large;
 }
@@ -124,6 +128,10 @@ a:visited {
 
 .text_gray {
     color: gray;
+}
+
+.text_center {
+    text-align: center;
 }
 
 .icon-xl {

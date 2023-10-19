@@ -5,7 +5,6 @@ const dropdown = document.getElementById("dropdown");
 const dropdown_card1 = document.getElementById("dropdown_card1");
 const dropdown_card2 = document.getElementById("dropdown_card2");
 
-// console.log(dropdown);
 menu_icon.addEventListener("click", () => {
   aside.style.display = "flex";
 });

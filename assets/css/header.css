@@ -96,6 +96,47 @@ aside {
     transform: rotate("90deg");
 }
 
+.description_text {
+    width: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.grid_card {
+    align-self: center;
+    width: 92%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.service_card {
+    align-self: center;
+    width: 14rem;
+    height: 16rem;
+    padding: 2rem 3rem;
+    background: white;
+}
+
+@media only screen and (max-width: 640px) {
+    .grid_card {
+        align-self: center;
+        width: 92%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+}
+
 @media only screen and (max-width: 930px) {
 
     nav.items_center {
@@ -167,6 +208,25 @@ aside {
     .dropdown_card {
         display: none;
     }
+
+    .description_text {
+        width: 96%;
+        padding: 1rem 1rem;
+
+    }
+
+    .description_text span {
+        font-size: larger;
+
+    }
+
+    .description_text p {
+        font-size: medium;
+
+    }
+
+
+
 }
 
 @media only screen and (max-width: 1073px) {
@@ -186,5 +246,41 @@ aside {
         position: fixed;
         margin-top: 1.5rem;
         margin-right: 12rem;
+    }
+
+    .description_text {
+        width: 80%;
+
+    }
+
+    .description_text span {
+        font-size: x-larger;
+
+    }
+
+    .description_text p {
+        font-size: large;
+
+    }
+
+
+
+    .grid_card {
+        align-self: center;
+        width: 92%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+
+    }
+
+    .service_card {
+        align-self: center;
+        align-self: center;
+        width: 17rem;
+        height: 19rem;
+        padding: 2rem 3rem;
+        background: white;
     }
 }
