@@ -1,9 +1,8 @@
-.tool_category_title {}
-
-
 @media only screen and (max-width: 930px) {
     .tool_category_title span {
+        width: 90vw;
         font-size: medium;
+        text-align: center;
     }
 
 }
