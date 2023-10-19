@@ -98,3 +98,17 @@ function handleExpandableMenu(e) {
     }
   }
 }
+
+const goto_top = document.getElementById("goto_top");
+
+const windowHeight = window.innerHeight;
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  if (scrollY > windowHeight / 2) {
+    goto_top.style.display = "block";
+  }
+  if (scrollY < windowHeight / 4) {
+    goto_top.style.display = "none";
+  }
+});

@@ -19,7 +19,12 @@
     height: auto;
     padding: 2rem 3rem;
     background: white;
-    border-radius: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.grid_card a:hover {
+    background: #f5f5fa;
 }
 
 @media only screen and (max-width: 640px) {

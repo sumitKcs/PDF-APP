@@ -1,0 +1,14 @@
+.goto_top {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 20;
+    border-radius: 50%;
+    display: none;
+
+}
+
+.goto_top i {
+    color: blue;
+}

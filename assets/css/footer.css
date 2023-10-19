@@ -2,8 +2,9 @@ footer {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    padding: 5rem 5rem;
-    margin-bottom: -12rem;
+    padding: 2rem 5rem;
+    margin-bottom: -19rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 footer a {
@@ -22,8 +23,8 @@ footer a {
         flex-direction: column;
         justify-content: start;
         justify-items: center;
-        gap: 2rem;
-        padding: 5rem 1rem;
+        gap: .5rem;
+        padding: 1rem 1rem;
         margin-bottom: -12rem;
     }
 
