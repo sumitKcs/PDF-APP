@@ -10,11 +10,32 @@
     margin-top: 3rem;
 }
 
+@media only screen and (max-width: 640px) {
+
+
+
+    .description_text {
+        width: 98vw;
+
+    }
+
+    .description_text span {
+        font-size: small;
+
+    }
+
+    .description_text p {
+        font-size: small;
+        color: grey;
+
+    }
+
+
+
+}
+
 @media only screen and (max-width: 930px) {
 
-    .dropdown_card {
-        display: none;
-    }
 
     .description_text {
         width: 96%;
