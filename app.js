@@ -64,7 +64,27 @@ window.addEventListener("mouseover", (e) => {
   // }
 });
 
+// window.addEventListener("click", (e) => {
+//   if ((e.target.className = "menu_expand")) {
+//     let target = document.getElementById(e.target.id);
+//     // target.nextElementSibling.style.display = "flex";
+
+//     if (target.nextElementSibling.style.display === "flex") {
+//       while (target.nextElementSibling) {
+//         target.nextElementSibling.style.display = "none";
+//         target = target.nextElementSibling;
+//       }
+//     } else {
+//       while (target.nextElementSibling) {
+//         target.nextElementSibling.style.display = "flex";
+//         target = target.nextElementSibling;
+//       }
+//     }
+//   }
+// });
+
 function handleExpandableMenu(e) {
+  console.log(e);
   let target = document.getElementById(e.target.id);
   if (target.nextElementSibling.style.display === "flex") {
     while (target.nextElementSibling) {
