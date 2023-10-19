@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 5rem 5rem;
+    margin-bottom: -12rem;
+}
+
+footer a {
+    color: black;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 754px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        justify-items: center;
+        gap: 2rem;
+        padding: 5rem 1rem;
+        margin-bottom: -12rem;
+    }
+
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+}

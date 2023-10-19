@@ -1,0 +1,87 @@
+.related_apps {
+    width: 100vw;
+    padding: 5rem 5rem;
+    overflow-x: hidden;
+}
+
+.related_apps_card_wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.testimonial {
+    background: #f5f5fa
+}
+
+.testimonial_brand_icon {
+    scale: .4;
+}
+
+.related_apps.app_download {
+    padding: 5rem 1rem;
+    width: 100vw;
+    background-color: #47474f;
+    color: white;
+
+}
+
+.related_apps .app_download_wrapper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.app_download_button {
+    background: #ffc233;
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+}
+
+
+@media only screen and (max-width: 640px) {
+    .related_apps_title {
+        width: 90vw;
+        font-size: large;
+    }
+
+    .related_apps_card_wrapper {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .testimonial_brand_icon {
+        scale: .2;
+    }
+
+    .related_apps.app_download {
+        align-self: center;
+        padding: 5rem 0rem;
+        width: 100vw;
+
+
+    }
+
+    .related_apps .app_download_wrapper {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        gap: 5rem;
+    }
+
+    .related_apps .app_download_wrapper span {
+        width: 70vw;
+        font-size: large;
+
+    }
+
+    .related_apps .app_download_wrapper p {
+        width: 70vw;
+        border: 1px solid green;
+        font-size: large;
+    }
+}
