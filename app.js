@@ -46,12 +46,12 @@ window.addEventListener("mouseover", (e) => {
       dropdown_card2.style.display = "flex";
     }
   }
-  if (e.target.className !== "dropdown") {
-    dropdown_card1.style.display = "none";
-    dropdown_card2.style.display = "none";
-    dropdown1.innerHTML = `CONVERT PDF <span><i
-    class="fa-solid fa-caret-down icon_lg "></i></span></i>`;
-    dropdown2.innerHTML = `ALL PDF TOOLS <span><i
-    class="fa-solid fa-caret-down icon_lg"></i></span></i>`;
-  }
+  // if (e.target.className !== "dropdown") {
+  //   dropdown_card1.style.display = "none";
+  //   dropdown_card2.style.display = "none";
+  //   dropdown1.innerHTML = `CONVERT PDF <span><i
+  //   class="fa-solid fa-caret-down icon_lg "></i></span></i>`;
+  //   dropdown2.innerHTML = `ALL PDF TOOLS <span><i
+  //   class="fa-solid fa-caret-down icon_lg"></i></span></i>`;
+  // }
 });

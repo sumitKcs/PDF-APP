@@ -53,12 +53,18 @@ aside {
 
 }
 
+.dropdown_card {
+    border: 1px solid green;
+    background-color: green;
+}
+
 #dropdown_card2 {
     width: 100%;
     height: fit-content;
     display: none;
     justify-content: center;
     justify-items: center;
+
     z-index: 10;
 }
 
