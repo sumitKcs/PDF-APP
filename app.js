@@ -112,3 +112,15 @@ window.addEventListener("scroll", () => {
     goto_top.style.display = "none";
   }
 });
+
+const service_card = document.querySelectorAll(".service_card");
+service_card.forEach((card) => {
+  card.addEventListener("mouseenter", (e) => {
+    card.firstElementChild.classList.add("rotate");
+    console.log(card.firstElementChild.firstElementChild);
+  });
+
+  card.addEventListener("mouseleave", (e) => {
+    card.firstElementChild.classList.remove("rotate");
+  });
+});
