@@ -143,6 +143,11 @@ a:visited {
     text-align: center;
 }
 
+.text_justify {
+    text-align: justify;
+}
+
+
 .icon-xl {
     font-size: x-large;
     text-align: center;
@@ -220,8 +225,12 @@ a:visited {
     border-radius: .5rem;
 }
 
-.line_sm {
+.line_xs {
     line-height: 1rem;
+}
+
+.line_sm {
+    line-height: 1.5rem;
 }
 
 .line_md {
