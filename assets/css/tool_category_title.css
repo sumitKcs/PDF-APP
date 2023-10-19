@@ -1,0 +1,9 @@
+.tool_category_title {}
+
+
+@media only screen and (max-width: 930px) {
+    .tool_category_title span {
+        font-size: medium;
+    }
+
+}
