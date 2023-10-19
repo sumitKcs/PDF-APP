@@ -14,14 +14,30 @@
 .service_card {
     max-width: 100%;
     align-self: center;
-    min-width: 14rem;
-    min-height: 16rem;
+    width: 14rem;
+    height: 16rem;
     height: auto;
     padding: 2rem 3rem;
     background: white;
     border-radius: 1rem;
 }
 
+@media only screen and (max-width: 640px) {
+    .grid_card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service_card {
+        align-self: center;
+        width: 98%;
+        height: 2rem;
+        height: auto;
+        padding: 2rem 3rem;
+        background: white;
+        border-radius: 1rem;
+    }
+}
 
 @media only screen and (max-width: 1073px) {
 
