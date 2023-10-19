@@ -46,6 +46,10 @@ window.addEventListener("mouseover", (e) => {
       dropdown_card2.style.display = "flex";
     }
   }
+  if (e.target.className === "menu_item") {
+    dropdown_card1.style.display = "none";
+    dropdown_card2.style.display = "none";
+  }
   // if (e.target.className !== "dropdown") {
   //   dropdown_card1.style.display = "none";
   //   dropdown_card2.style.display = "none";
