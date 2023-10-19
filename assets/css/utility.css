@@ -16,7 +16,9 @@ a:visited {
     width: 100%;
 }
 
-
+.rotate_45 {
+    transform: rotate("90deg");
+}
 
 .gap_xl {
     gap: var(--gap-xl)

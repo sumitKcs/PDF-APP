@@ -1,0 +1,59 @@
+.description_text {
+    width: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 930px) {
+
+    .dropdown_card {
+        display: none;
+    }
+
+    .description_text {
+        width: 96%;
+        padding: 1rem 1rem;
+
+    }
+
+    .description_text span {
+        font-size: larger;
+
+    }
+
+    .description_text p {
+        font-size: medium;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1073px) {
+
+    .description_text {
+        width: 80%;
+
+    }
+
+    .description_text span {
+        font-size: x-larger;
+
+    }
+
+    .description_text p {
+        font-size: large;
+
+    }
+
+
+
+}

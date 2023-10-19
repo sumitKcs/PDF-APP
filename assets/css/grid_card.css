@@ -1,0 +1,37 @@
+.grid_card {
+    align-self: center;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-template-rows: repeat(2, minmax(16rem, 1fr));
+    place-items: center;
+    margin: 0 15rem;
+    row-gap: 1rem;
+
+
+}
+
+.service_card {
+    max-width: 100%;
+    align-self: center;
+    min-width: 14rem;
+    min-height: 16rem;
+    height: auto;
+    padding: 2rem 3rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 1073px) {
+
+    .grid_card {
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        row-gap: 1rem;
+
+
+    }
+
+
+
+}
