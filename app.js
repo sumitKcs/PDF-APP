@@ -7,11 +7,13 @@ const dropdown_card2 = document.getElementById("dropdown_card2");
 
 menu_icon.addEventListener("click", () => {
   aside.style.display = "flex";
+
   document.body.classList.add("no-scroll");
 });
 
 sidebar_close_button.addEventListener("click", () => {
   aside.style.display = "none";
+  menu_icon.style.display = "flex";
   document.body.classList.remove("no-scroll");
 });
 
@@ -62,21 +64,17 @@ window.addEventListener("mouseover", (e) => {
   // }
 });
 
-window.addEventListener("click", (e) => {
-  if ((e.target.className = "menu_expand")) {
-    let target = document.getElementById(e.target.id);
-    // target.nextElementSibling.style.display = "flex";
-
-    if (target.nextElementSibling.style.display === "flex") {
-      while (target.nextElementSibling) {
-        target.nextElementSibling.style.display = "none";
-        target = target.nextElementSibling;
-      }
-    } else {
-      while (target.nextElementSibling) {
-        target.nextElementSibling.style.display = "flex";
-        target = target.nextElementSibling;
-      }
+function handleExpandableMenu(e) {
+  let target = document.getElementById(e.target.id);
+  if (target.nextElementSibling.style.display === "flex") {
+    while (target.nextElementSibling) {
+      target.nextElementSibling.style.display = "none";
+      target = target.nextElementSibling;
+    }
+  } else {
+    while (target.nextElementSibling) {
+      target.nextElementSibling.style.display = "flex";
+      target = target.nextElementSibling;
     }
   }
-});
+}

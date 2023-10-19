@@ -33,10 +33,6 @@ nav>a {
     display: none;
 }
 
-.bottom_menu {
-    display: none;
-}
-
 
 aside {
     display: none;
@@ -135,9 +131,7 @@ aside a {
         justify-items: center;
     }
 
-    .login {
-        display: none;
-    }
+
 
     .mobile_menu {
         display: flex;
