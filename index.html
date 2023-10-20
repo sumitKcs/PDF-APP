@@ -12,12 +12,19 @@
 
 <body>
         <header class="shadow" id="header">
+                <!-- mobile menu icon -->
                 <div class="mobile_menu icon-xl" id="menu_icon">
                         <i class="fa-solid fa-bars"></i>
                 </div>
+                <!--  -->
                 <div class="logo items_left">
                         <img src="https://i.postimg.cc/3RvKKHPh/logo.png" alt="logo">
                 </div>
+                <div class="mobile_app_download hidden"> <a href="/app-download-link" class="items_center gap_sm">
+                                <i class="fa-solid fa-mobile fa-bounce text_2xl text_gray "></i>
+                                <img src="./assets/img/google-play.png" alt="google play" width="30" height="30">
+                        </a></div>
+
                 <nav class="items_center text_md text_bold gap_xl self_center" id="main_navigation">
                         <a href="/merge" class="menu_item"> MERGE PDF </a>
                         <a href="/split" class="menu_item"> SPLIT PDF </a>
@@ -737,8 +744,9 @@
 
 
         <aside class="side_navigation text_lg shadow overflow_scroll" id="side_bar">
-                <div class=" items_right" id="sidebar_close_button"><button
-                                class="close_button text_lg text_bold">X</button>
+                <div class=" items_between" id="sidebar_close_button">
+                        <img src="https://i.postimg.cc/3RvKKHPh/logo.png" alt="logo">
+                        <button class="close_button text_lg text_bold">X</button>
                 </div>
                 <div class="side_navigation_col1 gap_sm">
                         <a href="/merge">Merge PDF </a>
